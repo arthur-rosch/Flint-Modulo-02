@@ -53,3 +53,11 @@ do {
   counterDoWhile++;
 } while (counterDoWhile < numberArray.length);
 console.log(sumOfAllFor, sumOfAllWhile, sumOfAllDoWhile);
+
+for (let index = 0; index < 10; index++) {
+  index % 1 === 0 && index % index === 0 ? (index = 10) : console.log(index);
+}
+for (let index = 0; index < 100; index++) {
+  index <= 40 ? console.log(index) : console.log();
+  index >= 50 ? console.log(index) : console.log();
+}
