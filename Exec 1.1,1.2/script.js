@@ -13,11 +13,11 @@ if (se_caminho == 5 && se_corro === 2) {
 }
 let se_levanto_cedo,
   se_levanto_antes_das_8 = 83;
-if ((se_levanto_cedo = true || se_levanto_antes_das_8 === 8)) {
+if (se_levanto_cedo == true || se_levanto_antes_das_8 === 8) {
   console.log("Saio Tranquilo");
 }
 let se_nao_termino_trabalho,
   nao_tenho_compromisso = false;
-if ((se_nao_termino_trabalho = false || nao_tenho_compromisso == false)) {
+if (se_nao_termino_trabalho == false || nao_tenho_compromisso == false) {
   console.log("Saio tarde");
 }
