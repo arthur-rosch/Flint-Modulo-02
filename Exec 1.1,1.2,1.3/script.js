@@ -27,6 +27,7 @@ se_nao_termino_trabalho == false || nao_tenho_compromisso == false
 let num = 1;
 num % 1 === 0 && num % num === 0 ? console.log(true) : console.log(false);
 
-let hora = 1,
+let hora = 2,
   minutos = 0;
 hora > 0 ? (minutos = hora * 60) : (minutos = 60);
+console.log(minutos);
