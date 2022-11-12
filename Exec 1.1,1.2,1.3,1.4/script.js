@@ -24,8 +24,8 @@ se_nao_termino_trabalho == false || nao_tenho_compromisso == false
   ? console.log("Saio tarde")
   : console.log("Saio cedo");
 
-let num = 1;
-num % 1 === 0 && num % num === 0 ? console.log(true) : console.log(false);
+let num = 2;
+num % 2 === 0 ? console.log(false) : console.log(true);
 
 let hora = 2,
   minutos = 0;
@@ -53,9 +53,9 @@ do {
   counterDoWhile++;
 } while (counterDoWhile < numberArray.length);
 console.log(sumOfAllFor, sumOfAllWhile, sumOfAllDoWhile);
-
-for (let index = 0; index < 10; index++) {
-  index % 1 === 0 && index % index === 0 ? (index = 10) : console.log(index);
+let numberFor = 10;
+for (let index = 2; index < numberFor; index++) {
+  numberFor % index === 0 ? (index = numberFor) : console.log(index);
 }
 for (let index = 0; index < 100; index++) {
   index <= 40 ? console.log(index) : console.log();
