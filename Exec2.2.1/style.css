@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#monday {
+  margin-top: 1rem;
+}
+#sunday {
+  margin-bottom: 1rem;
+}
+#name,
+#adderess,
+#openingTime,
+#closingTime {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#name:focus,
+#adderess:focus,
+#openingTime:focus,
+#closingTime:focus {
+  outline: solid 1px purple;
+}
+
+.content button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}

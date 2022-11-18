@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <main>
+      <section class="content">
+        <form action="api.flit.com.br/submeterDados" method="POST">
+          <label for="name">Nome</label>
+          <input id="name" type="text" value="" placeholder="High" />
+
+          <label for="adderess">Endereço</label>
+          <input id="adderess" type="text" value="" placeholder="Rua Rio" />
+
+          <h3>Dias de Funcionamento</h3>
+          <div>
+            <input type="radio" id="monday" value="operating days" />
+            <label for="monday">Segunda-Feira</label>
+          </div>
+          <div>
+            <input type="radio" id="tuesday" value="operating days" />
+            <label for="tuesday">Terçã-Feira</label>
+          </div>
+          <div>
+            <input type="radio" id="wednesday" value="operating days" />
+            <label for="wednesday">Quarta-Feira</label>
+          </div>
+          <div>
+            <input type="radio" id="thursday" value="operating days" />
+            <label for="thursday">Quinta-Feira</label>
+          </div>
+          <div>
+            <input type="radio" id="friday" value="operating days" />
+            <label for="friday">Sexta-Feira</label>
+          </div>
+          <div>
+            <input type="radio" id="saturday" value="operating days" />
+            <label for="saturday">Sábado</label>
+          </div>
+          <div>
+            <input type="radio" id="sunday" value="operating days" />
+            <label for="sunday">Domingo</label>
+          </div>
+
+          <label for="openingTime">Horario de Abertura</label>
+          <input type="time" id="openingTime" />
+
+          <label for="closingTime">Horario de Fechamento</label>
+          <input type="time" id="closingTime" />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+<script src="script.js"></script>
