@@ -1,0 +1,107 @@
+:root {
+  --yellow: #dbf227;
+  --blue-800: #042940;
+  --gray-200: #eeee;
+  --gray-300: #d9d9d9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--gray-200);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header {
+  height: 22vh;
+  width: 100vw;
+  background: var(--blue-800);
+}
+header > img {
+  margin-left: 2rem;
+}
+.content {
+  width: 55vw;
+  height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--gray-300);
+}
+.inputEmail {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.inputEmail > label {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.inputEmail > input {
+  width: 18vw;
+  padding: 0.5rem 0;
+  outline: none;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+form > span {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.ListNumbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.ListNumbers > div > span {
+  margin-left: 0.5rem;
+  color: #042940;
+  font-size: 1.1rem;
+}
+.RatingButton {
+  height: 2rem;
+  width: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  border: solid 1px yellow;
+  cursor: pointer;
+}
+
+.StarButton {
+  border: none;
+}
+
+.StarButton img {
+  cursor: pointer;
+}
+
+.RowButtonsStar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4.5rem;
+  margin-top: 2rem;
+}
+.rowButtonSubmit > button {
+  margin-top: 5rem;
+  margin-right: 1rem;
+  border: none;
+  background-color: #042940;
+  color: #fff;
+  padding: 1.2rem 10rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
