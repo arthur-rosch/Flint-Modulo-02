@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  margin-right: 1.563rem;
+}
+
+input[type="text"] {
+  width: 15.625rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
